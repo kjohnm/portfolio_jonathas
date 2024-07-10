@@ -10,7 +10,9 @@ let theme = createTheme({
     },
   },
   typography:{
-    fontFamily: "Monospace",
+    fontFamily: [
+      "Monospace",
+    ].join(','),
   }
 });
 
