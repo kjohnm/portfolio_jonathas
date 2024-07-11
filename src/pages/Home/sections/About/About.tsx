@@ -14,7 +14,7 @@ const About = () => {
           About Me
         </Typography>
         <Typography variant="body1" color="theme.palette.primary.contrastText" paragraph>
-          I'm 28 years old, in May 2024, I graduated in Computer Engineering
+          I'm Jonathas Silva Santos, 28 years old, in May 2024 i graduated in Computer Engineering
           from the Federal University of Sergipe (UFS). Over approximately 18 months,
           I developed, from requirements gathering and scope changes, to product delivery, 
           the MIGUS system, my highlight project, allowing me to gain significant 
@@ -24,11 +24,11 @@ const About = () => {
           continue improving the system.
         </Typography>
         <Typography variant="body1" color="theme.palette.primary.contrastText" paragraph>
-          I have been focusing on improving my development of efficient and intuitive 
-          applications always thinking about improving user experience and satisfaction. Furthermore, I am 
+          I like to create/development of efficient and intuitive 
+          applications, always thinking about improving user experience and satisfaction. Furthermore, I am 
           always eager to learn new technologies and improve my skills. 
           I am convinced that, with my effort and dedication, I can be a positive 
-          difference in any team I join.
+          differencial in any team I join.
         </Typography>
         <Box my={4}>
           <Typography variant="h4" color="primary">

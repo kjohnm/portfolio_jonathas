@@ -12,7 +12,7 @@ const NavBar = () => {
                 <StyledToobar>
                     <MenuItem component="a" href="#about">About</MenuItem>
                     <MenuItem component="a" href="#projects">Projects</MenuItem>
-                    <MenuItem component="a" href="#contact">Contact</MenuItem>
+                    <MenuItem component="a" href="#contact">Contact and Resume</MenuItem>
                 </StyledToobar>
             </AppBar>
         </>

@@ -1,0 +1,9 @@
+.custom-dots .slick-dots li button:before {
+  color: #FFF; /* Cor dos dots inativos */
+  font-size: 15px; 
+}
+
+.custom-dots .slick-dots li.slick-active button:before {
+  color: #000; /* Cor do dot ativo */
+  font-size: 20px;
+}

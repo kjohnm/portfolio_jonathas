@@ -1,9 +1,20 @@
+import { Container, styled, Typography } from "@mui/material";
+
 const Contact = () => {
+
+  const StyledContact = styled("section")(() => ({
+    padding: "100px 0",
+    backgroundColor: "#DFDFDF",
+    textAlign: "center",
+  }));
   return (
-    <section id="contact" style={{ padding: '100px 0', backgroundColor: '#fff' }}>
-      <h2>Contact Me</h2>
-      <p>This is the contact section.</p>
-    </section>
+    <StyledContact id="contact">
+      <Container maxWidth="md">
+        <Typography variant="h2" color="primary">
+          Contact and Resume
+        </Typography>
+      </Container>
+    </StyledContact>
   );
 }
 
