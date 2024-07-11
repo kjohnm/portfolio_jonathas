@@ -15,7 +15,7 @@ const Hero = () => {
   }))
 
   const StyledImg = styled("img")(({ theme })=> ({
-    width: "80%",
+    width: "75%",
     borderRadius: "50%",
     border: "1px solid",
     borderColor: theme.palette.primary.contrastText,
@@ -28,7 +28,7 @@ const Hero = () => {
         <Grid container spacing={2}>
           <Grid item xs={12} md={5}>
             <Box position="relative">
-              <Box position="absolute" width={"125%"} top={-110} right={0}>
+              <Box position="absolute" width={"125%"} top={-200} right={10} bottom={100}>
                 <AnimatedBackground />
               </Box>
               <Box position="relative" textAlign="center">
@@ -40,13 +40,13 @@ const Hero = () => {
             <Typography color="primary.contrastText" variant="h1"> Jonathas Santos </Typography>
             <Typography color="primary.contrastText" variant="h2"> Computer Engineer </Typography>
             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
-              <Grid item xs={12} md={5} display="flex" justifyContent="center">
+              <Grid item xs={12} md={6} display="flex" justifyContent="center">
                 <StyledButton>
                   <DownloadIcon/>
                     <Typography>Download Resume</Typography>
                 </StyledButton>
               </Grid>
-              <Grid item xs={12} md={5} display="flex" justifyContent="center">
+              <Grid item xs={12} md={6} display="flex" justifyContent="center">
                 <StyledButton>
                   <ContactPageIcon/>
                     <Typography>Contact me</Typography>
