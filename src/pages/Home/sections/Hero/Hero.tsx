@@ -1,8 +1,5 @@
 import { Box, Container, Grid, styled, Typography } from "@mui/material"
 import PerfilPicture from "../../../../assets/images/fotinha.png"
-import DownloadIcon from '@mui/icons-material/Download';
-import ContactPageIcon from '@mui/icons-material/ContactPage';
-import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
 
 const Hero = () => {
@@ -12,10 +9,11 @@ const Hero = () => {
     height: "100vh",
     display: "flex",
     alignItems: "center",
+    justifyContent: "center", // Centraliza horizontalmente
   }))
 
   const StyledImg = styled("img")(({ theme })=> ({
-    width: "75%",
+    width: "70%",
     borderRadius: "50%",
     border: "1px solid",
     borderColor: theme.palette.primary.contrastText,
@@ -28,7 +26,7 @@ const Hero = () => {
         <Grid container spacing={2}>
           <Grid item xs={12} md={5}>
             <Box position="relative">
-              <Box position="absolute" width={"125%"} top={-200} right={10} bottom={100}>
+              <Box position="absolute" width={"100%"}>
                 <AnimatedBackground />
               </Box>
               <Box position="relative" textAlign="center">
@@ -37,26 +35,11 @@ const Hero = () => {
             </Box>
           </Grid>
           <Grid item xs={12} md={7}>
-            <Typography color="primary.contrastText" variant="h1"> Jonathas Santos </Typography>
-            <Typography color="primary.contrastText" variant="h2"> Computer Engineer </Typography>
-            <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
-              <Grid item xs={12} md={6} display="flex" justifyContent="center">
-                <StyledButton>
-                  <DownloadIcon/>
-                    <Typography>Download Resume</Typography>
-                </StyledButton>
-              </Grid>
-              <Grid item xs={12} md={6} display="flex" justifyContent="center">
-                <StyledButton>
-                  <ContactPageIcon/>
-                    <Typography>Contact me</Typography>
-                </StyledButton>
-              </Grid>
-            </Grid>
+            <Typography color="primary.contrastText" variant="h1" align="center"> Jonathas Santos </Typography> {/* Alinhar o texto centralmente */}
+            <Typography color="primary.contrastText" variant="h2" align="center"> Computer Engineer </Typography> {/* Alinhar o texto centralmente */}
           </Grid>
         </Grid>
       </Container>
-
     </StyledHero>
     </>
   )
