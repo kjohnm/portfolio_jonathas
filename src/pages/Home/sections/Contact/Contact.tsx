@@ -31,7 +31,7 @@ const Contact = () => {
     {
       icon: <PictureAsPdfIcon />,
       label: "Curriculum",
-      link: "/path/to/your-curriculum.pdf",
+      link: "https://drive.google.com/file/d/1V1s2ORfGP9rOoK3CAH1G16QcxvoIaQs0/view?usp=sharing",
     },
   ];
 
