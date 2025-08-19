@@ -14,9 +14,15 @@ const About = () => {
           About Me
         </Typography>
         <Typography variant="body1" color="theme.palette.primary.contrastText" paragraph>
-          I'm Jonathas Silva Santos, 28 years old, in May 2024 i graduated in Computer Engineering
-          from the Federal University of Sergipe (UFS). Over approximately 18 months,
-          I developed, from requirements gathering and scope changes, to product delivery, 
+          I'm Jonathas S. Santos, in May 2024 i graduated in Computer Engineering
+          from the Federal University of Sergipe (UFS). In addition to having acquired a 
+          good foundation in Object-Oriented Programming, Data Structures, Construction and 
+          Analysis of Algorithms, Software Engineering, Databases, among several other topics 
+          inherent to development, I was also able to participate in real projects, from conception, 
+          eliciting requirements, preparing documentation, developing the code, until the delivery of 
+          the product for 1 year, during 2 Software Engineering disciplines (ES I and ES II). Over 
+          approximately 12 months, during  2 disciplines of "Final course work" (TCC I and TCC II) i 
+          also developed, from requirements gathering and scope changes, to product delivery, 
           the MIGUS system, my highlight project, allowing me to gain significant 
           experience in different technologies and languages, primarily in JavaScript, 
           React, React Native, Expo, Expo Go, and Firebase. This project also
@@ -38,6 +44,7 @@ const About = () => {
             Soft Skills
           </Typography>
           <Typography variant="body1" color="theme.palette.primary.contrastText" paragraph>
+            - Problem Solving;<br />
             - Good communication and organization;<br />
             - Teamwork skills;<br />
             - Ease and availability to learn new technologies;<br />
@@ -48,11 +55,12 @@ const About = () => {
             Hard Skills
           </Typography>
           <Typography variant="body1" color="theme.palette.primary.contrastText" paragraph>
-            - Programming languages (Java, Python, C, C++, JavaScript);<br />
+            - Programming languages (Java, Python, C, C++, JavaScript, Typescript);<br />
             - Technologies and Frameworks (React, React Native, Expo Go, Firebase, Angular, Spring Boot);<br />
             - HTML and CSS;<br />
+            - Azure DevOps;<br />
             - Agile methodologies;<br />
-            - Version control: GitHub and GitKraken;<br />
+            - Version control: GitHub, Gitlab, GitKraken;<br />
             - Databases.
           </Typography>
         </Box>
