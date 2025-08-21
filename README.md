@@ -9,9 +9,13 @@ Esse portfolio foi desenvolvido para apresentar/enfatizar parte das minhas exper
 ### Tecnologias utilizadas
 
 [React](https://reactjs.org/)
+
 [Vite](https://vitejs.dev/)
+
 [Prisma](https://www.prisma.io/)
+
 [ESLint](https://eslint.org/)
+
 [Prettier](https://prettier.io/) *em breve*
 
 ---
